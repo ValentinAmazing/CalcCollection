@@ -15,21 +15,24 @@ struct Author {
     let definition: String
 }
 
-var authors =
-        [
-            Author(photo: "vlad",
-                   name: "Влад",
-                   age: 26,
-                   profession: "Скуф",
-                   definition: "Просточок - червячок"),
-            Author(photo: "alexey",
-                   name: "Алексей",
-                   age: 37,
-                   profession: "Крутой",
-                   definition: "Супергерой из Минска"),
-            Author(photo: "valentin",
-                   name: "Валентин",
-                   age: 18,
-                   profession: "Босс",
-                   definition: "Рулит всей движухой")
-        ]
+struct MockData {
+    static func generateMockAuthors() -> [Author] {
+        var authors = [Author]()
+        let author1 = Author(photo: "vlad",
+                             name: "Влад",
+                             age: 26,
+                             profession: "Скуф",
+                             definition: "Просточок - червячок")
+        let author2 = Author(photo: "alexey",
+                             name: "Алексей",
+                             age: 37,
+                             profession: "Крутой",
+                             definition: "Супергерой из Минска")
+        let author3 =  Author(photo: "valentin",
+                              name: "Валентин",
+                              age: 18,
+                              profession: "Босс",
+                              definition: "Рулит всей движухой")
+        return authors
+    }
+}
