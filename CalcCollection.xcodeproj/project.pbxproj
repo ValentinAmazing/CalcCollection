@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70C77682B9B1F840047C304 /* CalcList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70C77672B9B1F840047C304 /* CalcList.storyboard */; };
+		A70C776A2B9B20730047C304 /* CalcListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C77692B9B20730047C304 /* CalcListViewController.swift */; };
+		A70C776D2B9B225A0047C304 /* CalcList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C776C2B9B225A0047C304 /* CalcList.swift */; };
 		A7BA6DD92B978102008E7608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DD82B978102008E7608 /* AppDelegate.swift */; };
 		A7BA6DDB2B978102008E7608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DDA2B978102008E7608 /* SceneDelegate.swift */; };
 		A7BA6DDD2B978102008E7608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DDC2B978102008E7608 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70C77672B9B1F840047C304 /* CalcList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalcList.storyboard; sourceTree = "<group>"; };
+		A70C77692B9B20730047C304 /* CalcListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcListViewController.swift; sourceTree = "<group>"; };
+		A70C776C2B9B225A0047C304 /* CalcList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcList.swift; sourceTree = "<group>"; };
 		A7BA6DD52B978102008E7608 /* CalcCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BA6DD82B978102008E7608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7BA6DDA2B978102008E7608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A70C776B2B9B22390047C304 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				A70C776C2B9B225A0047C304 /* CalcList.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
 		A7BA6DCC2B978102008E7608 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +72,7 @@
 			children = (
 				A7BA6DEC2B978BB2008E7608 /* Storyboards */,
 				A7BA6DED2B978BCD008E7608 /* ViewControllers */,
+				A70C776B2B9B22390047C304 /* DataStore */,
 				A7BA6DEF2B978C07008E7608 /* SupportFiles */,
 				A7BA6DEE2B978BF8008E7608 /* Resources */,
 			);
@@ -68,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A7BA6DDE2B978102008E7608 /* Main.storyboard */,
+				A70C77672B9B1F840047C304 /* CalcList.storyboard */,
 				A7BA6DE32B978103008E7608 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -77,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				A7BA6DDC2B978102008E7608 /* ViewController.swift */,
+				A70C77692B9B20730047C304 /* CalcListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -158,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7BA6DE52B978103008E7608 /* LaunchScreen.storyboard in Resources */,
+				A70C77682B9B1F840047C304 /* CalcList.storyboard in Resources */,
 				A7BA6DE22B978103008E7608 /* Assets.xcassets in Resources */,
 				A7BA6DE02B978102008E7608 /* Main.storyboard in Resources */,
 			);
@@ -170,7 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70C776D2B9B225A0047C304 /* CalcList.swift in Sources */,
 				A7BA6DDD2B978102008E7608 /* ViewController.swift in Sources */,
+				A70C776A2B9B20730047C304 /* CalcListViewController.swift in Sources */,
 				A7BA6DD92B978102008E7608 /* AppDelegate.swift in Sources */,
 				A7BA6DDB2B978102008E7608 /* SceneDelegate.swift in Sources */,
 			);
