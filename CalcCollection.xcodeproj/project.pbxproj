@@ -16,6 +16,7 @@
 		A7BA6DE02B978102008E7608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BA6DDE2B978102008E7608 /* Main.storyboard */; };
 		A7BA6DE22B978103008E7608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BA6DE12B978103008E7608 /* Assets.xcassets */; };
 		A7BA6DE52B978103008E7608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BA6DE32B978103008E7608 /* LaunchScreen.storyboard */; };
+		A7BAD24B2B98AFA5006458B9 /* CalcLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAD24A2B98AFA5006458B9 /* CalcLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A7BA6DE12B978103008E7608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BA6DE42B978103008E7608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7BA6DE62B978103008E7608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BAD24A2B98AFA5006458B9 /* CalcLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				A70C776B2B9B22390047C304 /* DataStore */,
 				A7BA6DEF2B978C07008E7608 /* SupportFiles */,
 				A7BA6DEE2B978BF8008E7608 /* Resources */,
+				A7BAD2492B98AF67006458B9 /* Models */,
 			);
 			path = CalcCollection;
 			sourceTree = "<group>";
@@ -114,6 +117,14 @@
 				A7BA6DE62B978103008E7608 /* Info.plist */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A7BAD2492B98AF67006458B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAD24A2B98AFA5006458B9 /* CalcLogic.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 			files = (
 				A70C776D2B9B225A0047C304 /* CalcList.swift in Sources */,
 				A7BA6DDD2B978102008E7608 /* ViewController.swift in Sources */,
+				A7BAD24B2B98AFA5006458B9 /* CalcLogic.swift in Sources */,
 				A70C776A2B9B20730047C304 /* CalcListViewController.swift in Sources */,
 				A7BA6DD92B978102008E7608 /* AppDelegate.swift in Sources */,
 				A7BA6DDB2B978102008E7608 /* SceneDelegate.swift in Sources */,
