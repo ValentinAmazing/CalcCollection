@@ -10,6 +10,12 @@ import UIKit
 class CalcListViewController: UITableViewController {
 
     let calcList = CalcListManager.shared.calcTitles
+    
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = tableView.indexPathForSelectedRow else {return}
+
+    }
         
 }
 
