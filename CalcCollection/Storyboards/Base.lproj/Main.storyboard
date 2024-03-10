@@ -15,14 +15,42 @@
                     <view key="view" contentMode="scaleToFill" id="ztV-dl-0rn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjF-IS-HxU">
+                                <rect key="frame" x="16" y="103" width="361" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6hc-pz-Zmf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Label calc from Aleks"/>
+                                <connections>
+                                    <segue destination="64g-Pg-UQt" kind="show" id="J6o-t1-mrH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="qVx-rw-Idf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mjF-IS-HxU" firstAttribute="trailing" secondItem="qVx-rw-Idf" secondAttribute="trailing" constant="-16" id="LK2-uL-I9I"/>
+                            <constraint firstItem="mjF-IS-HxU" firstAttribute="top" secondItem="qVx-rw-Idf" secondAttribute="top" id="R4f-Qt-xKJ"/>
+                            <constraint firstItem="mjF-IS-HxU" firstAttribute="leading" secondItem="qVx-rw-Idf" secondAttribute="leading" constant="16" id="mht-Pr-zw2"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Make a choice" id="00v-Kc-RNp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="exI-ax-YOL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-208.3969465648855" y="-225.35211267605635"/>
+        </scene>
+        <!--CalcFromAleks-->
+        <scene sceneID="tfB-S0-VYh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CalcFromAleks" id="64g-Pg-UQt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="j6P-tv-qBm"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kKH-0P-p6K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="-475"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pwr-I3-gQ0">
