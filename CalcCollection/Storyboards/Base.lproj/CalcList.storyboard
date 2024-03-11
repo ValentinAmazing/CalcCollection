@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N8S-e9-AZU">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Make a choice-->
+        <scene sceneID="3HS-0X-U3p">
+            <objects>
+                <viewController id="Jcn-lF-A2B" customClass="CalcListViewController" customModule="CalcCollection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ztV-dl-0rn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjF-IS-HxU">
+                                <rect key="frame" x="16" y="103" width="361" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6hc-pz-Zmf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Label calc from Aleks"/>
+                                <connections>
+                                    <segue destination="64g-Pg-UQt" kind="show" id="J6o-t1-mrH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qVx-rw-Idf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mjF-IS-HxU" firstAttribute="trailing" secondItem="qVx-rw-Idf" secondAttribute="trailing" constant="-16" id="LK2-uL-I9I"/>
+                            <constraint firstItem="mjF-IS-HxU" firstAttribute="top" secondItem="qVx-rw-Idf" secondAttribute="top" id="R4f-Qt-xKJ"/>
+                            <constraint firstItem="mjF-IS-HxU" firstAttribute="leading" secondItem="qVx-rw-Idf" secondAttribute="leading" constant="16" id="mht-Pr-zw2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Make a choice" id="00v-Kc-RNp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="exI-ax-YOL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-208.3969465648855" y="-225.35211267605635"/>
+        </scene>
+        <!--CalcFromAleks-->
+        <scene sceneID="tfB-S0-VYh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CalcFromAleks" id="64g-Pg-UQt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="j6P-tv-qBm"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kKH-0P-p6K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="-475"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Pwr-I3-gQ0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N8S-e9-AZU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EeA-NV-dWN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Jcn-lF-A2B" kind="relationship" relationship="rootViewController" id="aUP-KB-yCz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cDf-9O-gca" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1135.1145038167938" y="-225.35211267605635"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
