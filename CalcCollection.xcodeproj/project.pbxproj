@@ -15,6 +15,7 @@
 		A724CF7D2B9E7C3100D5DD5D /* CalcListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A724CF7C2B9E7C3100D5DD5D /* CalcListViewController.swift */; };
 		A78F19752B9E91C100CC81E5 /* CalcTextFieldVal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78F19742B9E91C100CC81E5 /* CalcTextFieldVal.storyboard */; };
 		A78F19772B9E94F800CC81E5 /* CalcTextFieldValVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78F19762B9E94F800CC81E5 /* CalcTextFieldValVC.swift */; };
+		A78F19792B9E982800CC81E5 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78F19782B9E982800CC81E5 /* Calc.swift */; };
 		A7BA6DD92B978102008E7608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DD82B978102008E7608 /* AppDelegate.swift */; };
 		A7BA6DDB2B978102008E7608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DDA2B978102008E7608 /* SceneDelegate.swift */; };
 		A7BA6DDD2B978102008E7608 /* CalcFromAleksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DDC2B978102008E7608 /* CalcFromAleksViewController.swift */; };
@@ -32,6 +33,7 @@
 		A724CF7C2B9E7C3100D5DD5D /* CalcListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcListViewController.swift; sourceTree = "<group>"; };
 		A78F19742B9E91C100CC81E5 /* CalcTextFieldVal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalcTextFieldVal.storyboard; sourceTree = "<group>"; };
 		A78F19762B9E94F800CC81E5 /* CalcTextFieldValVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcTextFieldValVC.swift; sourceTree = "<group>"; };
+		A78F19782B9E982800CC81E5 /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
 		A7BA6DD52B978102008E7608 /* CalcCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BA6DD82B978102008E7608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7BA6DDA2B978102008E7608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				059E43062B98A8420038F7F7 /* Authors.swift */,
+				A78F19782B9E982800CC81E5 /* Calc.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7BA6DDD2B978102008E7608 /* CalcFromAleksViewController.swift in Sources */,
+				A78F19792B9E982800CC81E5 /* Calc.swift in Sources */,
 				059E43092B992CFA0038F7F7 /* AuthorViewController.swift in Sources */,
 				A7BA6DDD2B978102008E7608 /* CalcFromAleksViewController.swift in Sources */,
 				A78F19772B9E94F800CC81E5 /* CalcTextFieldValVC.swift in Sources */,
