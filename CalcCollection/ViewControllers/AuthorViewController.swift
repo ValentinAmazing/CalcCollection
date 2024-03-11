@@ -17,6 +17,10 @@ final class AuthorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Authors"
+        tabBarItem = UITabBarItem(title: "Authors", image: UIImage(systemName: "person.2.fill"), tag: 1)
+
         setUpAuthorsNames()
     }
     

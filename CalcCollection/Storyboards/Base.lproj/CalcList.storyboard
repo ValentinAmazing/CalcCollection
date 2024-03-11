@@ -11,7 +11,7 @@
         <!--Make a choice-->
         <scene sceneID="3HS-0X-U3p">
             <objects>
-                <viewController id="Jcn-lF-A2B" sceneMemberID="viewController">
+                <viewController id="Jcn-lF-A2B" customClass="CalcListViewController" customModule="CalcCollection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ztV-dl-0rn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

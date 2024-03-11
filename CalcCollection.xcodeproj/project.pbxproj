@@ -11,10 +11,12 @@
 		059E43072B98A8420038F7F7 /* Authors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E43062B98A8420038F7F7 /* Authors.swift */; };
 		059E43092B992CFA0038F7F7 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E43082B992CFA0038F7F7 /* AuthorViewController.swift */; };
 		A722DF182B9E253800F5CB9F /* CalcFromAleks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A722DF172B9E253800F5CB9F /* CalcFromAleks.storyboard */; };
+		A724CF7B2B9E767900D5DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A724CF7A2B9E767900D5DD5D /* Main.storyboard */; };
+		A724CF7D2B9E7C3100D5DD5D /* CalcListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A724CF7C2B9E7C3100D5DD5D /* CalcListViewController.swift */; };
 		A7BA6DD92B978102008E7608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DD82B978102008E7608 /* AppDelegate.swift */; };
 		A7BA6DDB2B978102008E7608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DDA2B978102008E7608 /* SceneDelegate.swift */; };
 		A7BA6DDD2B978102008E7608 /* CalcFromAleksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA6DDC2B978102008E7608 /* CalcFromAleksViewController.swift */; };
-		A7BA6DE02B978102008E7608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BA6DDE2B978102008E7608 /* Main.storyboard */; };
+		A7BA6DE02B978102008E7608 /* CalcList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BA6DDE2B978102008E7608 /* CalcList.storyboard */; };
 		A7BA6DE22B978103008E7608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BA6DE12B978103008E7608 /* Assets.xcassets */; };
 		A7BA6DE52B978103008E7608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BA6DE32B978103008E7608 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -24,11 +26,13 @@
 		059E43062B98A8420038F7F7 /* Authors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authors.swift; sourceTree = "<group>"; };
 		059E43082B992CFA0038F7F7 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 		A722DF172B9E253800F5CB9F /* CalcFromAleks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalcFromAleks.storyboard; sourceTree = "<group>"; };
+		A724CF7A2B9E767900D5DD5D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A724CF7C2B9E7C3100D5DD5D /* CalcListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcListViewController.swift; sourceTree = "<group>"; };
 		A7BA6DD52B978102008E7608 /* CalcCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BA6DD82B978102008E7608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7BA6DDA2B978102008E7608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A7BA6DDC2B978102008E7608 /* CalcFromAleksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcFromAleksViewController.swift; sourceTree = "<group>"; };
-		A7BA6DDF2B978102008E7608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7BA6DDF2B978102008E7608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CalcList.storyboard; sourceTree = "<group>"; };
 		A7BA6DE12B978103008E7608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BA6DE42B978103008E7608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7BA6DE62B978103008E7608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,9 +76,9 @@
 		A7BA6DD72B978102008E7608 /* CalcCollection */ = {
 			isa = PBXGroup;
 			children = (
-				A74100D52B9E742D0011D667 /* Models */,
 				A7BA6DEC2B978BB2008E7608 /* Storyboards */,
 				A7BA6DED2B978BCD008E7608 /* ViewControllers */,
+				A74100D52B9E742D0011D667 /* Models */,
 				A7BA6DEF2B978C07008E7608 /* SupportFiles */,
 				A7BA6DEE2B978BF8008E7608 /* Resources */,
 			);
@@ -84,7 +88,8 @@
 		A7BA6DEC2B978BB2008E7608 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				A7BA6DDE2B978102008E7608 /* Main.storyboard */,
+				A724CF7A2B9E767900D5DD5D /* Main.storyboard */,
+				A7BA6DDE2B978102008E7608 /* CalcList.storyboard */,
 				059E43042B98974A0038F7F7 /* Authors.storyboard */,
 				A722DF172B9E253800F5CB9F /* CalcFromAleks.storyboard */,
 				A7BA6DE32B978103008E7608 /* LaunchScreen.storyboard */,
@@ -95,6 +100,7 @@
 		A7BA6DED2B978BCD008E7608 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A724CF7C2B9E7C3100D5DD5D /* CalcListViewController.swift */,
 				059E43082B992CFA0038F7F7 /* AuthorViewController.swift */,
 				A7BA6DDC2B978102008E7608 /* CalcFromAleksViewController.swift */,
 			);
@@ -180,8 +186,9 @@
 				059E43052B98974A0038F7F7 /* Authors.storyboard in Resources */,
 				A7BA6DE52B978103008E7608 /* LaunchScreen.storyboard in Resources */,
 				A7BA6DE22B978103008E7608 /* Assets.xcassets in Resources */,
+				A724CF7B2B9E767900D5DD5D /* Main.storyboard in Resources */,
 				A722DF182B9E253800F5CB9F /* CalcFromAleks.storyboard in Resources */,
-				A7BA6DE02B978102008E7608 /* Main.storyboard in Resources */,
+				A7BA6DE02B978102008E7608 /* CalcList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +204,7 @@
 				A7BA6DDD2B978102008E7608 /* CalcFromAleksViewController.swift in Sources */,
 				A7BA6DD92B978102008E7608 /* AppDelegate.swift in Sources */,
 				059E43072B98A8420038F7F7 /* Authors.swift in Sources */,
+				A724CF7D2B9E7C3100D5DD5D /* CalcListViewController.swift in Sources */,
 				A7BA6DDB2B978102008E7608 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,12 +212,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A7BA6DDE2B978102008E7608 /* Main.storyboard */ = {
+		A7BA6DDE2B978102008E7608 /* CalcList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A7BA6DDF2B978102008E7608 /* Base */,
 			);
-			name = Main.storyboard;
+			name = CalcList.storyboard;
 			sourceTree = "<group>";
 		};
 		A7BA6DE32B978103008E7608 /* LaunchScreen.storyboard */ = {
