@@ -20,5 +20,10 @@ class CalcTextFieldValVC: UIViewController {
     }
     
     @IBAction func resultButton(_ sender: UIButton) {
+        let operandFirst = Double(operandFirstTF.text ?? "0") ?? 0.0
+        let operandSecond = Double(operandSecondTF.text ?? "0") ?? 0.0
+
+        let result = Calc().calc(operandFirst, actionTF.text ?? ".", operandSecond)
+        resultLabel.text = String(result)
     }
 }
