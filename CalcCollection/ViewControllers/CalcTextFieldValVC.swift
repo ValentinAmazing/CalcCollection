@@ -16,7 +16,8 @@ class CalcTextFieldValVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        resultLabel.text = ""
     }
     
     @IBAction func resultButton(_ sender: UIButton) {

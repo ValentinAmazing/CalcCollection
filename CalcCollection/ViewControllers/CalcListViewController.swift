@@ -12,7 +12,6 @@ class CalcListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "List"
         tabBarItem = UITabBarItem(title: "List", image: UIImage(systemName: "list.bullet"), tag: 0)
     }    
 }
