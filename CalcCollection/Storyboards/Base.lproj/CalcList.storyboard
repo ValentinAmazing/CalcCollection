@@ -16,24 +16,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjF-IS-HxU">
-                                <rect key="frame" x="16" y="103" width="361" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="6hc-pz-Zmf"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Label calc from Aleks"/>
-                                <connections>
-                                    <segue destination="64g-Pg-UQt" kind="show" id="J6o-t1-mrH"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HD8-gX-CEh">
+                                <rect key="frame" x="16" y="103" width="361" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjF-IS-HxU">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="6hc-pz-Zmf"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Label calc from Aleks"/>
+                                        <connections>
+                                            <segue destination="64g-Pg-UQt" kind="show" id="J6o-t1-mrH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqg-Tt-Ux1">
+                                        <rect key="frame" x="0.0" y="50" width="361" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="3eF-Aq-fwz"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="TextField calc from Valentin"/>
+                                        <connections>
+                                            <segue destination="Ymw-0J-2M9" kind="show" id="oQ0-59-tlA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qVx-rw-Idf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mjF-IS-HxU" firstAttribute="trailing" secondItem="qVx-rw-Idf" secondAttribute="trailing" constant="-16" id="LK2-uL-I9I"/>
-                            <constraint firstItem="mjF-IS-HxU" firstAttribute="top" secondItem="qVx-rw-Idf" secondAttribute="top" id="R4f-Qt-xKJ"/>
-                            <constraint firstItem="mjF-IS-HxU" firstAttribute="leading" secondItem="qVx-rw-Idf" secondAttribute="leading" constant="16" id="mht-Pr-zw2"/>
+                            <constraint firstItem="HD8-gX-CEh" firstAttribute="top" secondItem="qVx-rw-Idf" secondAttribute="top" id="Akw-8d-Ixq"/>
+                            <constraint firstItem="HD8-gX-CEh" firstAttribute="leading" secondItem="qVx-rw-Idf" secondAttribute="leading" constant="16" id="WcR-iM-bCm"/>
+                            <constraint firstItem="qVx-rw-Idf" firstAttribute="trailing" secondItem="HD8-gX-CEh" secondAttribute="trailing" constant="16" id="hyY-CZ-Ar3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Make a choice" id="00v-Kc-RNp"/>
@@ -50,7 +66,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kKH-0P-p6K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="456" y="-475"/>
+            <point key="canvasLocation" x="372" y="-442"/>
+        </scene>
+        <!--CalcTextFieldVal-->
+        <scene sceneID="SDf-rl-qjc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CalcTextFieldVal" id="Ymw-0J-2M9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sS6-vd-JUd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUk-pM-XS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402" y="-395"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pwr-I3-gQ0">
