@@ -27,6 +27,17 @@
                                     <segue destination="64g-Pg-UQt" kind="show" id="J6o-t1-mrH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqg-Tt-Ux1">
+                                <rect key="frame" x="16" y="163" width="361" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3eF-Aq-fwz"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="TextField calc from Valentin"/>
+                                <connections>
+                                    <segue destination="Ymw-0J-2M9" kind="show" id="oQ0-59-tlA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qVx-rw-Idf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -50,7 +61,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kKH-0P-p6K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="456" y="-475"/>
+            <point key="canvasLocation" x="372" y="-442"/>
+        </scene>
+        <!--CalcTextFieldVal-->
+        <scene sceneID="SDf-rl-qjc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CalcTextFieldVal" id="Ymw-0J-2M9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sS6-vd-JUd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUk-pM-XS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402" y="-395"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pwr-I3-gQ0">
